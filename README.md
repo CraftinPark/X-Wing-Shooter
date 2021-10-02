@@ -5,24 +5,24 @@ This game was created upon learning about OOP (Object Oriented Programming) for 
 
 ### Main Features:
 - **X-Wing**
- - Controls:
-  - Mode:
-   - more maneuverable in Flight Mode
-   - less maneuverable in Attack Mode, however grants the ability to shoot
-  - Tilt:
-   - tilt changes displayed sprite for X-wing
-   - also affects the angle of lasers fired.
- - Health affected by collision of bullet objects
- - When idle, X-Wing continues to move in a sinusoidal pattern
+  - Controls:
+    - Mode:
+      - more maneuverable in Flight Mode
+      - less maneuverable in Attack Mode, however grants the ability to shoot
+    - Tilt:
+      - tilt changes displayed sprite for X-wing
+      - also affects the angle of lasers fired.
+  - Health affected by collision of bullet objects
+  - When idle, X-Wing continues to move in a sinusoidal pattern
 - **Enemies**
- - mimicked AI/AI?:
-  - Tie fighters randomly choose between idle and moving
-   - shooting is only permitted during idle
-   - movement can be a random direction for a random interval of time
- - Health affected by collision of bullet objects
+  - mimicked AI/AI?:
+    - Tie fighters randomly choose between idle and moving
+    - shooting is only permitted during idle
+    - movement can be a random direction for a random interval of time
+  - Health affected by collision of bullet objects
 - **Background**
- - Stars were created a series of parameters (width, speed, thickness) using if statements
- - Similarly with Planets
+  - Stars were created a series of parameters (width, speed, thickness) using if statements
+  - Similarly with Planets
 
 X-Wing Shooter:
 
